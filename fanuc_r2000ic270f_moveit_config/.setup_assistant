@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: fanuc_r2000ic_support
+    relative_path: urdf/r2000ic270f.xacro
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/fanuc_r2000ic270f.srdf
+  CONFIG:
+    author_name: Haris Suwignyo
+    author_email: haris.suwignyo@alten.nl
+    generated_timestamp: 1607676429
